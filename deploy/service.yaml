@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: consulting-website-service
+spec:
+  selector:
+    app: consulting-website
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  # type: LoadBalancer  # Or use "NodePort" if no cloud LB available
