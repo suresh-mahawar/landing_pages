@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <header className="header">
-      <h1 className="logo">[Your Name] Cloud Consulting</h1>
+      <h1 className="logo">Sukun Cloud Consulting</h1>
       <nav>
         <a href="#about">About</a>
         <a href="#services">Services</a>

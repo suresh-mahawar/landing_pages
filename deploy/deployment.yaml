@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: consulting-website
-        image: consulting-website:latest  # <-- Change this
+        image: sureshmahawar/consulting-website:latest  # <-- Change this
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         resources:
